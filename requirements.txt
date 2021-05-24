@@ -1,0 +1,7 @@
+absl-py
+Pillow==8.2.0
+Flask==2.0.1
+# opencv-python-headless==4.5.2.52
+torch==1.8.1
+torchvision==0.9.1
+efficientnet-pytorch==0.7.1
