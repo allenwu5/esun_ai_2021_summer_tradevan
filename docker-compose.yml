@@ -1,0 +1,11 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  esun_ai_2021_summer_tradevan:
+    build: .
+    image: arashilen/esun_ai_2021_summer_tradevan_pytorch:1.0.0
+    environment:
+      TZ: "TZ=Asia/Taipei"
+    ports:
+      - "80:5000"
+    volumes:
+      - /tmp:/tmp
